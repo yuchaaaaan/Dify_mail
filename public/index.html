@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difyワークフロー連携アプリ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Difyワークフロー連携アプリ</h1>
+        <div class="form-container">
+            <form id="workflowForm">
+                <div class="form-group">
+                    <label for="mail_content">メール内容：</label>
+                    <textarea id="mail_content" name="mail_content" rows="4" required></textarea>
+                </div>
+                <button type="submit">送信</button>
+            </form>
+        </div>
+        <div class="result-container">
+            <h2>結果</h2>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
